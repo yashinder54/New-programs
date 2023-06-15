@@ -1,6 +1,6 @@
-package Functions;
+package Function2;
 
-public class Functions {
+public class Function2 {
 
     public void noArgumentNoReturn() // declaration
     // definition in {}
@@ -33,7 +33,7 @@ public class Functions {
     }
 
     public static void main(String args[]) {
-        Functions functions = new Functions();
+        Function2 functions = new Function2();
         functions.noArgumentNoReturn();
         functions.withArgumentNoReturn(1, 2);
         functions.noArgumentWithReturn();

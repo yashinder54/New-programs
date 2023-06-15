@@ -1,13 +1,12 @@
- import java.util.scanner;
- class DataTypes{
-    public static void main(string arg[]){
+import java.util.Scanner;
+class DataTypes{
+    public static void main(String arg[]){
         int a;
         float b;
         double c;
         char d;
-        scanner scanner = new scanner(system.in);
-        system.out.println("Enter Integer Value:");
-        
+        Scanner scanner = new Scanner(System.in);
+
         System.out.println("Enter Integer Value : ");
         a=scanner.nextInt();
         System.out.println("Value of int a : "+ a);
@@ -25,7 +24,3 @@
         System.out.println("Character d : "+ d);
       }
 } 
-
-
-    
-

@@ -1,5 +1,5 @@
 class Array{
-    Public static void main(String arg[]){
-        int[] a = new int[S];
+    public static void main(String arg[]){
+        int[] a = new int[5];
     }
 }

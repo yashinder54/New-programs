@@ -28,12 +28,12 @@ class ReverseAndAverageNumber{
     }
     
     public static void main(String args[]){
-        ReverseNumberAndAverage rna = new ReverseNumberAndAverage();
+        ReverseAndAverageNumber rna = new ReverseAndAverageNumber();
        // ReverseNumberAndAverage fa = new ReverseNumberAndAverage();        
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter number to reverse : ");
         int number;
-        number = sc.nextInt();
+        number = scanner.nextInt();
         
         rna.reverseNumber(number);
         double average = rna.findAverage(number);
